@@ -12,16 +12,19 @@
 
 // let name = 'shaun';
 
-// console.log(name == 'shaun');
+// // console.log(name == 'shaun');
 
 
-let score = '100';
+// let score = '100';
 
-console.log(score + 1); // 1001
+// console.log(score + 1); // 1001
 
-score = Number(score);
-console.log(score + 1); // 101
+// score = Number(score);
+// console.log(score + 1); // 101
 
-score = String(score);
-console.log(score + 1); // 1001
-console.log(typeof score);
+// score = String(score);
+// console.log(score + 1); // 1001
+// console.log(typeof score);
+
+// let restult = Number('hello');
+// console.log(restult); // NaN
