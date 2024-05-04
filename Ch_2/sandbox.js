@@ -38,3 +38,4 @@ console.log(result, fullName);
 
 let index = email.indexOf("@");
 console.log(index);
+
