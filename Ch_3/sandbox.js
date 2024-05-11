@@ -3,9 +3,7 @@
 
 // let result = names.includes('luigi');
 
-
 // console.log(result);
-
 
 // let age = 25;
 // console.log(age == 25);
@@ -13,7 +11,6 @@
 // let name = 'shaun';
 
 // // console.log(name == 'shaun');
-
 
 // let score = '100';
 

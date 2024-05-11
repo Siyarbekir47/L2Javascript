@@ -53,3 +53,22 @@ console.log(test);
 const random = Math.random();
 console.log(random);
 console.log(Math.round(random * 100));
+
+//primitive values
+
+let scoreOne = 50;
+let scoreTwo = scoreOne;
+
+scoreOne = 99;
+console.log(`scoreOne:  ${scoreOne} \nscoreTwo:  ${scoreTwo}`);
+
+//reference type
+const userOne = {
+  name: "mario",
+  age: 30,
+};
+const userTwo = userOne;
+
+userOne.age = 35;
+//both ages changed, becouse only pointer to referenc in heap, and no primitive value in stack
+console.log(`userOne.Age:  ${userOne.age} \nuserTwo.age:  ${userTwo.age}`);
